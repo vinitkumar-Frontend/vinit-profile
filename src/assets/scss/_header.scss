@@ -1,0 +1,8 @@
+header {
+  background-color: rgba($color: $primary-color, $alpha: 0.5);
+  backdrop-filter: blur(15px);
+  padding: 0px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}

@@ -1,13 +1,12 @@
 import React from "react";
 import { ReactComponent as BannerImg } from "../../assets/img/banner-img.svg";
 import Type from "./Type";
-import Particle from "../Particle";
+import Intro from "./intro";
 
 function Home() {
   return (
     <React.Fragment>
       <div className="container">
-        <Particle />
         <div className="row align-items-center">
           <div className="home-banner col-md-7">
             <h1 className="heading">
@@ -28,6 +27,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Intro />
     </React.Fragment>
   );
 }

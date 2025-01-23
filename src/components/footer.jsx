@@ -13,7 +13,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h3 className="copyright-text">
+            <h3 className="copyright-text text-md-start text-center">
               Designed and Developed by Vinit Kumar
             </h3>
           </div>
@@ -21,7 +21,7 @@ function Footer() {
             <h3 className="copyright-text text-center">Copyright © 2024 VK</h3>
           </div>
           <div className="col-md-4">
-            <ul className="footer-icons">
+            <ul className="footer-icons justify-content-center justify-content-md-end">
               <li className="social-icons">
                 <Link
                   to="https://github.com/vinitkumar-Frontend"
